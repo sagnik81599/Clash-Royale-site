@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Mobile Game Website Design</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<section>
+	<!-- Right Side CR Image Code -->
+	<img src="img/CR_blue_king.png" height="600px" class="electro_dragon" />
+	
+	<!-- Header Code -->
+	<header>
+		<!-- Logo Code -->
+		<img src="img/cr.png" class="COC-logo">
+		
+		<!-- Header Nav Menu Button Code -->
+		<div class="TopMenu-BTN"></div>
+		
+		<!-- Header Nav Menu Code -->
+		<ul class="navigation">
+			<li><a href="#" style="--i:1;" class="active">Home</a></li>
+			<li><a href="#" style="--i:2;">About</a></li>
+			<li><a href="#" style="--i:3;">Services</a></li>
+			<li><a href="#" style="--i:4;">Pricing</a></li>
+			<li><a href="#" style="--i:5;">Contact</a></li>
+		</ul>
+	</header>
+	
+	<!-- Content Code -->
+	<div class="content">
+		<div class="textBox">
+			<!-- Title Code -->
+			<h2>Clash Royale</h2>
+			
+			<!-- Description Code -->
+			<p>Clash Royale is a real-time strategy video game developed and published by Supercell.[1] The game combines elements from collectible card games, tower defense, and multiplayer online battle arena.[2][3][4] The game was released globally on March 2, 2016.[5][6] Clash Royale reached $1 billion in revenue in less than a year on the market.[7] In three years, 
+				Clash Royale made $2.5 billion in revenue according to market intelligence company Sensor Tower.[8] It is the first spinoff of Clash of Clans.
+			</p>
+			
+			<!-- Read More Button Code -->
+			<a href="#">Read More</a>
+		</div>
+	</div>
+	
+	<!-- Social Icon Code -->
+	<ul class="social">
+		<li><a href="#" style="--i:12;"><img src="img/facebook.png"></a></li>
+		<li><a href="#" style="--i:13;"><img src="img/insta.png"></a></li>
+		<li><a href="#" style="--i:14;"><img src="img/tweet.png"></a></li>
+	</ul>
+	
+</section>
+
+<script>
+// Toggle Button Clickable Add OR Remove Class Script Code
+
+	// Header Nav Menu Button Clickable Script
+	let BTNtoggle = document.querySelector('.TopMenu-BTN');
+		BTNtoggle?.addEventListener('click', () => {
+		document.querySelector('.TopMenu-BTN').classList.toggle('active');
+	});
+
+	// Header Nav Menu Script
+	let Navtoggle = document.querySelector('.TopMenu-BTN');
+		Navtoggle?.addEventListener('click', () => {
+		document.querySelector('.navigation').classList.toggle('active');
+	});
+</script>
+</body>
+</html>
